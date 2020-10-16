@@ -9,7 +9,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
-
+//hacktober fest
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
@@ -21,4 +21,4 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-app.listen(5500);
+app.listen(3000);
